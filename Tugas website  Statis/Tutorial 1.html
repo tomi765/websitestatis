@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title> Tutorial 1 </title>
+</head>
+<body>
+
+<!-- header-->
+<div class="bg-teal-600 px-4 py-3 text-white">
+    <p class="text-center text-sm font-medium">
+      Tutorial
+      
+    </p>
+  </div>
+ <!-- end header-->
+
+<!-- frame -->
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video YouTube</title>
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Agar tetap di tengah secara vertikal */
+        }
+
+        iframe {
+            width: 80%; /* Sesuaikan ukuran */
+            max-width: 800px; /* Batasan maksimal */
+            height: 450px; /* Sesuaikan dengan aspek rasio */
+        }
+
+        @media (max-width: 600px) {
+            iframe {
+                height: 250px; /* Ukuran lebih kecil untuk layar kecil */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <iframe 
+            src=" https://youtu.be/hMDJyb7VkYw?t=1351"
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</body>
+</html>
+
+<!-- end frame-->
+
+
+</body>
+</html>
